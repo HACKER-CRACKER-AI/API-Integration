@@ -3,7 +3,7 @@
 // https://github.com/sendgrid/sendgrid-nodejs
 //javascript
 const sgMail = require('@sendgrid/mail')
-sgMail.setApiKey(process.env.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)
+sgMail.setApiKey("Your API key")
 const msg = {
   to: 'bhuvaneshbhattarai@gmail.com', // Change to your recipient
   from: 'bhbh19cs@cmrit.ac.in', // Change to your verified sender
